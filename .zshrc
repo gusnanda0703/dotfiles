@@ -88,10 +88,10 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='mvim'
 # fi
 
-if [ -z "$TMUX" ]
-then
-    tmux attach -t TMUX || tmux new -s TMUX
-fi
+# if [ -z "$TMUX" ]
+# then
+#     tmux attach -t TMUX || tmux new -s TMUX
+# fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
